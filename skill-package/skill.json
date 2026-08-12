@@ -9,24 +9,24 @@
         "en-GB": {
           "name": "Radio Freccia Nera Italian Notes",
           "summary": "Listen to Radio Freccia Nera Italian Notes live on Alexa.",
-          "description": "Listen to Radio Freccia Nera Italian Notes live on Alexa. The station starts automatically when the skill opens. To start listening, say: Alexa, open Black Arrow Italian.",
+          "description": "Listen to Radio Freccia Nera Italian Notes live on Alexa. The station starts automatically when the skill opens. To listen, say: Alexa, open Black Arrow Italian.",
           "examplePhrases": [
             "Alexa, open Black Arrow Italian.",
             "Alexa, ask Black Arrow Italian to start the radio.",
             "Alexa, ask Black Arrow Italian to play the radio."
           ],
-          "keywords": ["Radio Freccia Nera", "radio", "music", "Italian music"]
+          "keywords": ["Radio Freccia Nera", "Italian music", "Italian radio", "radio", "music"]
         },
         "it-IT": {
           "name": "Radio Freccia Nera Note Italiane",
           "summary": "Ascolta Radio Freccia Nera Note Italiane in diretta su Alexa.",
-          "description": "Ascolta Radio Freccia Nera Note Italiane in diretta su Alexa. La stazione parte automaticamente quando apri la skill. Per iniziare, dì: Alexa, apri Note d'Italia.",
+          "description": "Ascolta Radio Freccia Nera Note Italiane in diretta su Alexa. La stazione parte automaticamente quando apri la skill. Per ascoltare, dì: Alexa, apri Note d'Italia.",
           "examplePhrases": [
             "Alexa, apri Note d'Italia.",
             "Alexa, chiedi a Note d'Italia di avviare la radio.",
             "Alexa, chiedi a Note d'Italia di riprodurre la radio."
           ],
-          "keywords": ["Radio Freccia Nera", "radio", "musica", "note italiane"]
+          "keywords": ["Radio Freccia Nera", "Note Italiane", "musica italiana", "radio", "musica"]
         }
       }
     },
