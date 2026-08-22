@@ -1,6 +1,6 @@
 'use strict';
 const Alexa=require('ask-sdk-core');
-const STREAM='https://www.radiofreccianera.com/italian.mp3';
+const STREAM='https://radio.radiofreccianera.com/listen/italian_notes/radio128.mp3';
 const ART='https://www.radiofreccianera.com/wp-content/uploads/2026/08/ITALIAN-NOTES.png';
 const isIT=h=>(Alexa.getLocale(h.requestEnvelope)||'en-GB').toLowerCase().startsWith('it');
 function play(h){const title=isIT(h)?'Radio Freccia Nera Note Italiane':'Radio Freccia Nera Italian Notes';const intro=isIT(h)?'Radio Freccia Nera Note Italiane.':'Radio Freccia Nera Italian Notes.';return h.responseBuilder.speak(intro).addDirective({type:'AudioPlayer.Play',playBehavior:'REPLACE_ALL',audioItem:{stream:{url:STREAM,token:'rfn-italian-notes-'+Date.now(),offsetInMilliseconds:0},metadata:{title,subtitle:'Radio Freccia Nera',art:{sources:[{url:ART}]},backgroundImage:{sources:[{url:ART}]}}}}).withShouldEndSession(true).getResponse();}
